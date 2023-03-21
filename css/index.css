@@ -24,11 +24,14 @@ main{
     margin-right: 50px;
     height: calc(100vh - 116px - 63px);
     border: solid black 4px;
+    display: flex;
+    flex-wrap: nowrap;
+
 }
 
 nav{
     width: 200px;
-    height: calc(100vh - 116px - 133px);
+    height: calc(100vh - 116px - 138px);
     border: solid black 1px;
     display: flex;
     flex-direction: column;
@@ -36,12 +39,26 @@ nav{
 }
 
 nav button{
-    height: 70px;
+    height: 65px;
     width: 200px;
     border: none;
     border-radius: 40px;
     font-size: 20px;
     font-weight: 400;
+}
+
+section{
+    width: calc(500px - 15px);
+    height: calc(100vh - 116px - 138px);
+    margin-left: 15px;
+    border: solid black 1px;
+}
+
+aside{
+    width: calc(500px - 15px);
+    height: calc(100vh - 116px - 138px);
+    /* margin-left: 15px; */
+    border: solid black 1px;
 }
 
 #copyright{
