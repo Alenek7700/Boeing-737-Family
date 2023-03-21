@@ -32,10 +32,11 @@ nav{
     border: solid black 1px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 nav button{
-    height: 60px;
+    height: 70px;
     width: 200px;
     border: none;
     border-radius: 40px;
