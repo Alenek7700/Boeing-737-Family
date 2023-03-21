@@ -24,13 +24,13 @@ main{
     margin-right: 50px;
     height: calc(100vh - 116px - 63px);
     border: solid black 4px;
-    display: flex;
-    flex-wrap: nowrap;
+    /* display: flex;
+    flex-wrap: nowrap; */
 
 }
 
 nav{
-    width: 210px;
+    width: 200px;
     height: calc(100vh - 116px - 138px);
     border: solid black 1px;
     display: flex;
@@ -45,27 +45,6 @@ nav button{
     border-radius: 40px;
     font-size: 20px;
     font-weight: 400;
-}
-
-section{
-    width: calc(500px - 15px);
-    height: calc(100vh - 116px - 138px);
-    margin-left: 15px;
-    border: solid black 1px;
-}
-
-section article{
-    height: calc(100vh - 116px - 138px);
-    background-color: #fff;
-    border-radius: 40px;
-}
-
-
-aside{
-    width: calc(500px - 15px);
-    height: calc(100vh - 116px - 138px);
-    margin-left: 15px;
-    border: solid black 1px;
 }
 
 #copyright{
