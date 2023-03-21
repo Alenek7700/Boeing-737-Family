@@ -44,22 +44,12 @@ nav button{
     font-weight: 400;
 }
 
-/* order now{
-    height: 60px;
-    width: 200px;
-    border: none;
-    border-radius: 40px;
-    font-size: 20px;
-    font-weight: 400;
-} */
 #copyright{
     text-align: center;
     font-weight: 200;
-    /* background-color: #333; */
 }
 
 footer{
-    /* position: absolute; */
     padding: 20px;
     bottom: 0;
     width: 100%;
