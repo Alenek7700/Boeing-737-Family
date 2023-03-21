@@ -30,7 +30,7 @@ main{
 }
 
 nav{
-    width: 200px;
+    width: 210px;
     height: calc(100vh - 116px - 138px);
     border: solid black 1px;
     display: flex;
@@ -54,10 +54,17 @@ section{
     border: solid black 1px;
 }
 
+section article{
+    height: calc(100vh - 116px - 138px);
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+
 aside{
     width: calc(500px - 15px);
     height: calc(100vh - 116px - 138px);
-    /* margin-left: 15px; */
+    margin-left: 15px;
     border: solid black 1px;
 }
 
