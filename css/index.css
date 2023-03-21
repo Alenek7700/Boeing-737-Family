@@ -45,6 +45,7 @@ nav button{
     border-radius: 40px;
     font-size: 20px;
     font-weight: 400;
+    font-weight: bolder;
 }
 
 #copyright{
