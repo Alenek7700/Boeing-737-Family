@@ -48,6 +48,13 @@ nav button{
     font-weight: bolder;
 }
 
+section{
+    width: 300px;
+    height: calc(100vh - 116px - 138px);
+    border: solid black 3px;    
+
+}
+
 #copyright{
     text-align: center;
     font-weight: 200;
