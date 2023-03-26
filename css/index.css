@@ -23,7 +23,7 @@ main{
     margin-left: 50px;
     margin-right: 50px;
     height: calc(100vh - 116px - 63px);
-    border: solid black 4px;
+    /* border: solid black 4px; */
     display: flex;
     flex-wrap: nowrap;
 
@@ -32,7 +32,7 @@ main{
 nav{
     width: 200px;
     height: calc(100vh - 116px - 138px);
-    border: solid black 1px;
+    /* border: solid black 1px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,18 +40,19 @@ nav{
 
 nav button{
     height: 65px;
-    width: 195px;
+    width: 190px;
     border: none;
     border-radius: 40px;
     font-size: 20px;
     font-weight: 400;
     font-weight: bolder;
+    background-color: white;
 }
 
 section{
     width: 400px;
     height: calc(100vh - 116px - 138px);
-    border: solid black 1px;    
+    /* border: solid black 1px;     */
 }
 
 #information-about-plane{
@@ -75,7 +76,7 @@ section{
 aside{
     width: 600px;
     height: calc(100vh - 116px - 138px);
-    border: solid black 1px;   
+    /* border: solid black 1px;    */
     position: relative; 
 }
 
@@ -84,6 +85,20 @@ aside img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) translateX(50px);;
+}
+
+#order-now{
+    position: absolute;
+    bottom: 68px;
+    left: 440px;
+    height: 65px;
+    width: 190px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: bolder;
+    background-color: white;
 }
 
 #copyright{
