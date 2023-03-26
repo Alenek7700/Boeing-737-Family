@@ -29,25 +29,6 @@ main{
 
 }
 
-nav{
-    width: 200px;
-    height: calc(100vh - 116px - 138px);
-    border: solid black 1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-nav button{
-    height: 65px;
-    width: 200px;
-    border: none;
-    border-radius: 40px;
-    font-size: 20px;
-    font-weight: 400;
-    font-weight: bolder;
-}
-
 #copyright{
     text-align: center;
     font-weight: 200;

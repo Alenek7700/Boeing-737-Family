@@ -27,16 +27,16 @@
     </header>
     <main>
         <nav>
-            <button>ORIGINAL</button>
-            <button>CLASSIC</button>
-            <button>NG</button>
-            <button>BBJ</button>
+            <button onclick="changeImage('./images/B737-ORIGINAL.png')" id="button1" data-text="B737-ORIGINAL">ORIGINAL</button>
+            <button onclick="changeImage('./images/B737-CLASSIC.png')" id="button2" data-text="B737-CLASSIC">CLASSIC</button>
+            <button onclick="changeImage('./images/B737-NG.png')" id="button3" data-text="B737-NG">NG</button>
+            <button onclick="changeImage('./images/B737-BBJ.png')" id="button4" data-text="B737-BBJ">BBJ</button>
         </nav>
         <section>
             <article>
                 <div id="information-about-plane">
                     <div id="information-text">
-                        <h1>Boeing 737 ORIGINAL</h1>
+                        <h1 id="nagłówek">Boeing 737 ORIGINAL</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo tempore autem soluta corporis laborum laudantium dolorum, sint reiciendis! Iusto ea a aspernatur necessitatibus porro ab reiciendis repellendus deserunt quis! Id corporis laudantium omnis, adipisci sunt dignissimos facere laborum dicta ratione?</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda officia perferendis voluptas autem corporis labore, fuga, cum, culpa est error voluptate quasi aut iste aperiam itaque commodi tenetur voluptates nesciunt!</p>
@@ -46,11 +46,11 @@
             </article>
         </section>
         <aside>
-            <img src="./images/B737-ORIGINAL.png">
+            <img src="./images/B737-ORIGINAL.png" id="plane-img">
         </aside>
     </main>
     <div id="order-now">
-        <button>ORDER NOW</button>
+        <button><a href="./boeing shop/index.html">ORDER NOW</a></button>
     </div>
     <footer id="copyright">
         <p>Copyright© 1995 - 2023 Boeing 737 Family. All Rights Reserved.</p>
