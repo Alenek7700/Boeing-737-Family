@@ -39,3 +39,24 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+#generation{
+    text-align: center;
+    font-size: x-large;
+}
+
+#buttons{
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons button{
+    padding: 15px;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 900;
+    font-size: large;
+}
