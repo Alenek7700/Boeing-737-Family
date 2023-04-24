@@ -60,3 +60,36 @@ footer{
     font-weight: 900;
     font-size: large;
 }
+
+#plane_photo{
+    /* border: solid black 1px; */
+}
+
+#plane_photo img{
+    border: solid black 1px;
+    /* text-align: center; */
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 400px){
+    header img{
+        height: 60px;
+
+    }
+    #buttons button{
+        border-radius: 20px;
+    }
+    *{
+        overflow: visible;
+    }
+    #plane_photo img{
+        border: solid black 1px;
+        /* text-align: center; */
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+}
