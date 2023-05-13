@@ -2,94 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background-color: #95BDFF;
-    background-image: linear-gradient(225deg, #D9AFD9 0%, #97D9E1 100%);
-}
-
-header{
-    padding-top: 20px;
-}
-header img{
-    height: 90px;
-    padding-left: 50px;
-}
-
-main{
-    margin-left: 50px;
-    margin-right: 50px;
-    height: calc(100vh - 116px - 63px);
-    border: solid black 4px;
-    /* display: flex;
-    flex-wrap: nowrap; */
-
-}
-
-#copyright{
-    text-align: center;
-    font-weight: 200;
-}
-
-footer{
-    padding: 20px;
-    bottom: 0;
     width: 100%;
 }
 
-#generation{
-    text-align: center;
-    font-size: x-large;
+#web{
+    background: hsla(167, 68%, 73%, 1);
+    background: linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8de9d5", endColorstr="#32c4c0", GradientType=1 );
 }
 
-#buttons{
-    border: solid black 1px;
-    display: flex;
-    justify-content: space-between;
+#select{
+    /* background-color: #333; */
+    height: 100vh;
 }
 
-#buttons button{
-    padding: 15px;
-    width: 200px;
-    height: 60px;
-    border-radius: 50px;
-    border: none;
-    font-weight: 900;
-    font-size: large;
+#select img{
+    /* height: 1000px; */
+    width: 100%;
+    height: 100vh;
 }
 
-#plane_photo{
-    /* border: solid black 1px; */
+#NG{
+    /* background-color: #6dd674; */
+    height: 100vh;
 }
 
-#plane_photo img{
-    border: solid black 1px;
-    /* text-align: center; */
-    width: 50%;
-    display: block;
-    margin: auto;
+#BBJ{
+    background-color: #7e59c7;
+    height: 100vh;
 }
 
-@media screen and (max-width: 800px){
-    header img{
-        height: 60px;
+#buying-form{
+    background-color: #264e4a;
+    height: 100vh; 
+}
 
-    }
-    #buttons button{
-        border-radius: 20px;
-    }
-    *{
-        overflow: visible;
-    }
-    #plane_photo img{
-        border: solid black 1px;
-        /* text-align: center; */
-        width: 100%;
-        display: block;
-        margin: auto;
-    }
+#copyright{
+    height: 5vh;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    
 
 }
