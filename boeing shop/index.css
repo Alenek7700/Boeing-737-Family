@@ -50,6 +50,8 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-    
+    #copyright{
+        height: 10vh;
+    }
 
 }
