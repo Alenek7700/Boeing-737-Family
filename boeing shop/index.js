@@ -13,3 +13,7 @@ if (window.innerWidth < 300) {
     document.getElementById("film-okno").style.display = "none";
   }
 
+  function uwu(){
+    alert("sprawdz maila z potwierdzeniem malpo");
+  }
+
