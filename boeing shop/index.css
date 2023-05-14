@@ -6,36 +6,52 @@
 }
 
 body{
-    width: 100%;
+    background-color: aqua;
 }
 
 #web{
-    background: hsla(167, 68%, 73%, 1);
+    /* background: hsla(167, 68%, 73%, 1);
     background: linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
     background: -webkit-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8de9d5", endColorstr="#32c4c0", GradientType=1 );
+     */
+    background-color: rgb(255, 255, 255);
 }
 
 #select{
-    /* background-color: #333; */
-    height: 100vh;
+    height: 100%;
+    /* background-color: black; */
 }
 
 #select img{
-    /* height: 1000px; */
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #NG{
     /* background-color: #6dd674; */
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NG-content{
+    background-color: rgb(249, 249, 249);
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
 }
 
 #BBJ{
     background-color: #7e59c7;
     height: 100vh;
+}
+
+.BBJ-VID{
+    height: 100%;
 }
 
 #buying-form{
@@ -44,7 +60,7 @@ body{
 }
 
 #copyright{
-    height: 5vh;
+    height: 5wh;
     display: grid;
     place-items: center;
 }
