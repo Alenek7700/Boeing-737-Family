@@ -5,10 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-color: aqua;
-}
-
 #web{
     /* background: hsla(167, 68%, 73%, 1);
     background: linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
@@ -53,7 +49,7 @@ body{
     width: 40%;
     height: 100%;
     float: left;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     display: grid;
     align-items: center;
 }
@@ -67,7 +63,7 @@ body{
     width: 60%;
     height: 100%;
     float: right;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 
 }
 
@@ -88,20 +84,9 @@ body{
 
 
 
-#BBJ{
-    background-color: #7e59c7;
-    height: 100vh;
-}
-
 #buying-form{
     background-color: #264e4a;
     height: 100vh; 
-}
-
-#copyright{
-    height: 5wh;
-    display: grid;
-    place-items: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -109,4 +94,32 @@ body{
         height: 10vh;
     }
 
+}
+
+/* FILM */
+#film-okno {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  #film-okno video {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+/* scroll efect */
+main{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.scroll{
+    scroll-snap-align: start;
 }
