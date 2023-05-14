@@ -72,8 +72,21 @@ body{
 }
 
 .uwu{
+    margin-top: 11.5vh;
+    margin-bottom: 11.5vh;
     margin-left: 1vw;
 }
+
+.watch-video{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid black 1px;
+    border-radius: 0%;
+    float: right;
+}
+
+
 
 #BBJ{
     background-color: #7e59c7;
