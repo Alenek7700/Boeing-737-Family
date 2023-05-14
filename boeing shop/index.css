@@ -21,7 +21,6 @@ body{
 
 #select{
     height: 100%;
-    /* background-color: black; */
 }
 
 #select img{
@@ -38,20 +37,36 @@ body{
 }
 
 .NG-content{
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(243, 243, 243);
     height: 90vh;
     width: 100%;
     display: grid;
-    place-content: center;
+    /* place-content: center; */
+}
+
+.main-content{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.main-content-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border: solid black 1px;
+}
+
+.main-content-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    border: solid black 1px;
+
 }
 
 #BBJ{
     background-color: #7e59c7;
     height: 100vh;
-}
-
-.BBJ-VID{
-    height: 100%;
 }
 
 #buying-form{
